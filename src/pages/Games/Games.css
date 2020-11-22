@@ -1,0 +1,83 @@
+.games__browse {
+  display: flex;
+  flex-direction: column;
+}
+
+.games__browse h2 {
+  font-size: 2.7rem;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.games__browse form {
+  width: 80%;
+  margin: 1rem 0rem 3rem 0rem;
+  background: #232527;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0.7rem;
+  border-radius: 3px;
+}
+
+.games__browse form .svg_icon {
+  margin-right: 1rem;
+  flex: 1 1;
+}
+
+.games__browse form input {
+  flex: 3 3;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: none;
+  color: #e4e5e6;
+}
+
+.game__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game__list .game_card {
+  margin-bottom: 2rem;
+  
+}
+
+@media(max-width: 700px) {
+  .game__list {
+    justify-content: center;
+  }
+
+  .games__browse form  {
+    width: 100%;
+  }
+
+}
+
+@media(max-width: 500px) {
+
+  .game__list .game_card {
+    min-width: 140px;
+    max-width: 140px;
+    min-height: 120px;
+    max-height: 120px;
+    background: #232527;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+  }
+
+  .game__list .game_card img {
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    min-height: 75px !important;
+    max-height: 75px !important;
+    max-width: 100%;
+  }
+
+  .game__list .game_card__extras h3 {
+    font-size: 0.8rem;
+  }
+
+  .game__list .game_card__extras .rating {
+    font-size: 0.6rem;
+  }
+}

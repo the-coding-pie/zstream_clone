@@ -1,0 +1,42 @@
+.trending {
+  margin: 2rem 0rem 5rem 0rem;
+}
+
+.trending h2 {
+  font-size: 2.5rem;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.trending__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.trending__top .btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+
+.trending__games {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  margin-bottom: 4rem;
+}
+
+.trending__games::-webkit-scrollbar {
+  display: none;
+}
+
+@media(max-width: 349px) {
+  .trending h2 {
+    font-size: 2rem !important;
+  }
+}

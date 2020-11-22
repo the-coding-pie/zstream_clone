@@ -1,0 +1,104 @@
+.game__page__banner {
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 80vh;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.game__page .btn {
+  padding: 1rem !important;
+}
+
+.game__page__banner .btn {
+  margin-bottom: 3rem;
+}
+
+.game__page h1 {
+  margin-bottom: 1rem;
+}
+
+
+.game__page__details__extras {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.game__page__details__extras .rating {
+  margin-right: 1rem;
+}
+
+.game__page__details__extras .genres .genre{
+  margin-right: 0.5rem;
+}
+
+.game__page__details__extras .genres .genre::after {
+  content: ',';
+}
+
+.game__page__details__extras .genres .genre:last-child::after {
+  content: '';
+}
+
+.action {
+  margin: 5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action .btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin-right: 0.5rem;
+}
+
+.game__details {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #3e4042;
+  border-radius: 3px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #3e4042;
+  padding: 1rem;
+}
+
+th {
+  color: #E4E5E6;
+  text-align: center;
+}
+
+.game__details caption {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+}
+
+.game__details strong {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media(max-width: 500px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  th, td {
+    padding: 0.3rem;
+  }
+
+  .game__details caption {
+    font-size: 2rem;
+  }
+}

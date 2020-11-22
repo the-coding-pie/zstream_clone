@@ -1,0 +1,54 @@
+.footer {
+  margin-top: 3rem;
+  background: #232527;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+  padding: 1rem 0rem;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #3e4042;
+}
+
+.footer__top ul {
+  text-align: center;
+}
+
+.footer__top h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .brand {
+  font-size: 1.6rem;
+  flex: 1 1;
+  font-family: 'Kaushan Script', cursive;
+}
+
+@media(max-width: 700px) {
+  .footer__top {
+    flex-direction: column;
+  }
+
+  .footer__top ul {
+    margin-bottom: 2rem;
+  }
+
+  .footer__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__bottom .brand {
+    margin-bottom: .5rem;
+  }
+}

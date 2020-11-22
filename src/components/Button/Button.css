@@ -1,0 +1,31 @@
+.btn {
+  font-size: 1rem;
+  background: #5a1699;
+  padding: 0.4rem 0.6rem;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: #dd6605;
+  font-size: 1.4rem;
+  padding: 0.5rem 0.8rem;
+}
+
+.btn-yellow {
+  background:#dd6605;
+}
+
+.btn-green {
+  background: #199203;
+}
+
+
+.btn-primary a {
+  color: #ffffff !important;
+}

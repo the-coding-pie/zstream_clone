@@ -1,0 +1,99 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.pricing h2 {
+  font-size: 3rem;
+  border-bottom: 4px solid #5a1699;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.pricing__p {
+  text-align: center;
+}
+
+.pricing p {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.pricing__plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__div {
+  background: #232527;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 3px;
+  margin-right: 1.5rem;
+}
+
+.plan_name {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.lite .tick, .lite .plan_name {
+  color: #ec8744;
+}
+
+.pro .tick, .pro .plan_name {
+  color: #2eca12;
+}
+
+.ultra .tick, .ultra .plan_name {
+  color: #a375f1;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #E4E5E6;
+  margin-bottom: 0.6rem;
+}
+
+.price span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.pricing__div ul li {
+  margin-bottom: 0.5rem;
+}
+
+.pricing__div .btn {
+  margin-top: 1rem;
+  align-self: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__div .btn a {
+  width: 100%;
+
+  padding: 0.7rem;
+  height: 100%;
+}
+
+@media(max-width: 700px) {
+  .pricing__plans {
+    flex-direction: column;
+  }
+
+  .pricing__div {
+    margin-right: 0rem;
+    margin-bottom: 2.5rem;
+  }
+}
